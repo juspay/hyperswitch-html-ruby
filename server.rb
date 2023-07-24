@@ -7,7 +7,7 @@ hyper_switch_api_key = 'HYPERSWITCH_API_KEY'
 hyper_switch_api_base_url = 'https://sandbox.hyperswitch.io/payments'
 
 set :static, true
-set :port, 4243
+set :port, 4242
 
 # Securely calculate the order amount
 def calculate_order_amount(_items)
